@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Smooth scrolling for navigation */
+html {
+  scroll-behavior: smooth;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -118,5 +123,16 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* Custom gradient utilities */
+@layer utilities {
+  .bg-gradient-radial {
+    background-image: radial-gradient(var(--tw-gradient-stops));
+  }
+  
+  .bg-gradient-conic {
+    background-image: conic-gradient(var(--tw-gradient-stops));
   }
 }
