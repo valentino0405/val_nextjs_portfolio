@@ -46,52 +46,65 @@ export default function Home() {
       </section>
 
       {/* Works Section */}
-      <section id="works" className="min-h-screen flex flex-col items-center justify-center p-8">
-        <div className="text-center space-y-6">
-          <h2 className="text-3xl font-bold text-white">#works</h2>
+      <section id="works" className="min-h-screen flex flex-col items-center justify-center p-8 relative">
+        <div className="text-center space-y-6 relative z-10">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
+            #works
+          </h2>
           <p className="text-lg text-gray-300 max-w-2xl">
             Here are some of my featured projects and works that showcase my skills and creativity.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
             {/* Project cards will go here */}
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <h3 className="text-xl font-semibold mb-2">Project 1</h3>
-              <p className="text-gray-400">Description of your first project</p>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl hover:bg-white/10 transition-all duration-300">
+              <div className="w-full h-32 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-xl mb-4 flex items-center justify-center">
+                <span className="text-sm text-gray-400">Project Preview</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-white">Project 1</h3>
+              <p className="text-gray-400">Description of your first project with modern technologies</p>
             </div>
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <h3 className="text-xl font-semibold mb-2">Project 2</h3>
-              <p className="text-gray-400">Description of your second project</p>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl hover:bg-white/10 transition-all duration-300">
+              <div className="w-full h-32 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl mb-4 flex items-center justify-center">
+                <span className="text-sm text-gray-400">Project Preview</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-white">Project 2</h3>
+              <p className="text-gray-400">Another amazing project showcasing your skills</p>
             </div>
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <h3 className="text-xl font-semibold mb-2">Project 3</h3>
-              <p className="text-gray-400">Description of your third project</p>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl hover:bg-white/10 transition-all duration-300">
+              <div className="w-full h-32 bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-xl mb-4 flex items-center justify-center">
+                <span className="text-sm text-gray-400">Project Preview</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-white">Project 3</h3>
+              <p className="text-gray-400">Creative solution demonstrating your expertise</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* About Me Section */}
-      <section id="about-me" className="min-h-screen flex flex-col items-center justify-center p-8">
-        <div className="text-center space-y-6 max-w-4xl">
-          <h2 className="text-3xl font-bold text-white">#about-me</h2>
+      <section id="about-me" className="min-h-screen flex flex-col items-center justify-center p-8 relative">
+        <div className="text-center space-y-6 max-w-4xl relative z-10">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
+            #about-me
+          </h2>
           <p className="text-lg text-gray-300">
             I'm a passionate developer with experience in modern web technologies. 
             I love creating beautiful, functional, and user-friendly applications.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <h3 className="text-xl font-semibold mb-4">Skills</h3>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl">
+              <h3 className="text-xl font-semibold mb-4 text-white">Skills</h3>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-[#7C3AED] rounded-full text-sm">React</span>
-                <span className="px-3 py-1 bg-[#7C3AED] rounded-full text-sm">Next.js</span>
-                <span className="px-3 py-1 bg-[#7C3AED] rounded-full text-sm">TypeScript</span>
-                <span className="px-3 py-1 bg-[#7C3AED] rounded-full text-sm">Tailwind CSS</span>
+                <span className="px-3 py-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full text-sm">React</span>
+                <span className="px-3 py-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full text-sm">Next.js</span>
+                <span className="px-3 py-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full text-sm">TypeScript</span>
+                <span className="px-3 py-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full text-sm">Tailwind CSS</span>
               </div>
             </div>
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <h3 className="text-xl font-semibold mb-4">Experience</h3>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl">
+              <h3 className="text-xl font-semibold mb-4 text-white">Experience</h3>
               <p className="text-gray-400">
-                Details about your professional experience and background.
+                Details about your professional experience and background in creating innovative solutions.
               </p>
             </div>
           </div>
@@ -99,22 +112,24 @@ export default function Home() {
       </section>
 
       {/* Contacts Section */}
-      <section id="contacts" className="min-h-screen flex flex-col items-center justify-center p-8">
-        <div className="text-center space-y-6 max-w-2xl">
-          <h2 className="text-3xl font-bold text-white">#contacts</h2>
+      <section id="contacts" className="min-h-screen flex flex-col items-center justify-center p-8 relative">
+        <div className="text-center space-y-6 max-w-2xl relative z-10">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
+            #contacts
+          </h2>
           <p className="text-lg text-gray-300">
             I'm always interested in hearing about new opportunities and projects. 
             Let's get in touch!
           </p>
           <div className="space-y-4">
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <p className="text-gray-300">Email: valentino@example.com</p>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl hover:bg-white/10 transition-all duration-300">
+              <p className="text-gray-300">📧 Email: valentino@example.com</p>
             </div>
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <p className="text-gray-300">LinkedIn: /in/valentino-portfolio</p>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl hover:bg-white/10 transition-all duration-300">
+              <p className="text-gray-300">💼 LinkedIn: /in/valentino-portfolio</p>
             </div>
-            <div className="bg-[#282C33] p-6 rounded-lg border border-gray-700">
-              <p className="text-gray-300">GitHub: /valentino0405</p>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl shadow-xl hover:bg-white/10 transition-all duration-300">
+              <p className="text-gray-300">🔗 GitHub: /valentino0405</p>
             </div>
           </div>
         </div>
