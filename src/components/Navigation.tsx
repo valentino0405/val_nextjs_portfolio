@@ -2,15 +2,16 @@
 
 import { useState } from "react";
 import { ChevronDownIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function Navigation() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
   const navItems = [
-    { label: "#home", href: "#home" },
-    { label: "#works", href: "#works" },
-    { label: "#about-me", href: "#about-me" },
-    { label: "#contacts", href: "#contacts" },
+    { label: "#home", href: "/home" },
+    { label: "#projects", href: "/projects" },
+    { label: "#about-me", href: "/about" },
+    { label: "#contacts", href: "/contacts" },
   ];
 
   return (
@@ -20,14 +21,14 @@ export default function Navigation() {
           {/* Navigation Links */}
           <div className="flex items-center space-x-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.label}
                 href={item.href}
                 className="text-white/80 hover:text-white transition-colors duration-300 text-base font-medium relative group"
               >
                 {item.label}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-400 to-blue-400 transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </Link>
             ))}
           </div>
 

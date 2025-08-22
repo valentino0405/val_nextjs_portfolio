@@ -192,3 +192,8 @@ html {
   animation: float-reverse 7s ease-in-out infinite;
   animation-delay: 1s;
 }
+
+/* Radial gradient utility */
+.bg-gradient-radial {
+  background: radial-gradient(ellipse at center, var(--tw-gradient-stops));
+}
