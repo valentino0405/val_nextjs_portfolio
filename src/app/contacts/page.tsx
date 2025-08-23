@@ -99,7 +99,7 @@ export default function Contacts() {
               Let's Build Something Amazing Together
             </h2>
             <p className="text-white/70 mb-6 max-w-2xl mx-auto">
-              Whether you're looking for a developer to join your team, need help with a project, or want to collaborate on something innovative, 
+              Whether you're looking for a developer to join your team, neeed  help with a project, or want to collaborate on something innovative, 
               I'd love to hear from you. I'm particularly interested in AI, full-stack development, and cutting-edge web technologies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
