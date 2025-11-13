@@ -133,7 +133,7 @@ export default function About() {
                   </div>
                   <div className="bg-white/10 rounded-xl p-4">
                     <h4 className="font-semibold text-purple-300 mb-2">FlipKart Clone</h4>
-                    <p className="text-white/70 text-sm">MERN + Payment Gateway(Stripe)</p>
+                    <p className="text-white/70 text-sm">MERN + Paymentu Gateway(Stripe)</p>
                   </div>
                   <div className="bg-white/10 rounded-xl p-4">
                     <h4 className="font-semibold text-purple-300 mb-2">Virtual Assistant</h4>
