@@ -136,7 +136,7 @@ export default function About() {
                     <p className="text-white/70 text-sm">MERN + Paymentu Gateway(Stripe)</p>
                   </div>
                   <div className="bg-white/10 rounded-xl p-4">
-                    <h4 className="font-semibold text-purple-300 mb-2">Virtual Assistant</h4>
+                    <h4 className="font-semibold text-purple-300 mb-2">Virtual Assistan and ai t</h4>
                     <p className="text-white/70 text-sm">Python+ rustt + Gemini ii+ GPT api used (Collaborated with Dhaval Suthar)</p>
                   </div>
                 </div>
