@@ -3,7 +3,7 @@ export default function Contacts() {
     {
       type: "Phone",
       value: "9029772251",
-      icon: "📞",
+      icon: "",
       href: "tel:+919029772251",
       display: "+91 9029772251"
     },
